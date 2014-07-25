@@ -1,0 +1,387 @@
+<dragonBones name="fuwang" frameRate="24" version="2.3">
+  <armature name="fuwang">
+    <bone name="RShoulder.png">
+      <transform x="-92.45" y="18.4" skX="0" skY="0" scX="1" scY="1"/>
+    </bone>
+    <bone name="RForearm.png">
+      <transform x="-94.5" y="49.15" skX="0" skY="0" scX="1" scY="1"/>
+    </bone>
+    <bone name="RArm.png">
+      <transform x="-89" y="29.35" skX="0" skY="0" scX="1" scY="1"/>
+    </bone>
+    <bone name="TorsoBottom.png">
+      <transform x="-54" y="48.4" skX="0" skY="0" scX="1" scY="1"/>
+    </bone>
+    <bone name="RLeg_1.png">
+      <transform x="-64.95" y="66.9" skX="0" skY="0" scX="1" scY="1"/>
+    </bone>
+    <bone name="LLeg_1.png ">
+      <transform x="-38.5" y="65.4" skX="0" skY="0" scX="1" scY="1"/>
+    </bone>
+    <bone name="Head_2.png ">
+      <transform x="-78.95" y="3.9" skX="0" skY="0" scX="1" scY="1"/>
+    </bone>
+    <bone name="Eyes.png ">
+      <transform x="-51.5" y="-0.85" skX="0" skY="0" scX="1" scY="1"/>
+    </bone>
+    <bone name="Head.png ">
+      <transform x="-65.5" y="-7.1" skX="0" skY="0" scX="1" scY="1"/>
+    </bone>
+    <bone name="Head_3.png ">
+      <transform x="-84.5" y="-30.6" skX="0" skY="0" scX="1" scY="1"/>
+    </bone>
+    <bone name="Head_1.png ">
+      <transform x="-40" y="12.15" skX="0" skY="0" scX="1" scY="1"/>
+    </bone>
+    <bone name="TorsoTop.png">
+      <transform x="-61.5" y="26.85" skX="0" skY="0" scX="1" scY="1"/>
+    </bone>
+    <bone name="RLeg.png">
+      <transform x="-64.95" y="56.4" skX="0" skY="0" scX="1" scY="1"/>
+    </bone>
+    <bone name="LLeg.png ">
+      <transform x="-42.5" y="55.4" skX="0" skY="0" scX="1" scY="1"/>
+    </bone>
+    <bone name="LForearm.png ">
+      <transform x="-31" y="37.7" skX="0" skY="0" scX="1" scY="1"/>
+    </bone>
+    <bone name="MainWeapon.png ">
+      <transform x="3.05" y="53.4" skX="0" skY="0" scX="1" scY="1"/>
+    </bone>
+    <bone name="qigan">
+      <transform x="-51" y="-35.85" skX="0" skY="0" scX="1" scY="1"/>
+    </bone>
+    <bone name="qimian">
+      <transform x="-79" y="-45.45" skX="0" skY="0" scX="1" scY="1"/>
+    </bone>
+    <bone name="Shadow.png">
+      <transform x="-52.95" y="73.9" skX="0" skY="0" scX="1" scY="1"/>
+    </bone>
+    <skin name="">
+      <slot name="Shadow.png" parent="Shadow.png" z="0">
+        <display name="Shadow" type="image">
+          <transform x="-59" y="-22" skX="0" skY="0" scX="1" scY="1" pX="0" pY="0"/>
+        </display>
+      </slot>
+      <slot name="qimian" parent="qimian" z="1">
+        <display name="qi01" type="image">
+          <transform x="-35" y="-28.5" skX="0" skY="0" scX="1" scY="1" pX="0" pY="0"/>
+        </display>
+        <display name="qi02" type="image">
+          <transform x="-34" y="-29" skX="0" skY="0" scX="1" scY="1" pX="0" pY="0"/>
+        </display>
+        <display name="qi03" type="image">
+          <transform x="-34.5" y="-29" skX="0" skY="0" scX="1" scY="1" pX="0" pY="0"/>
+        </display>
+      </slot>
+      <slot name="qigan" parent="qigan" z="2">
+        <display name="backpack_2" type="image">
+          <transform x="-19" y="-41.5" skX="0" skY="0" scX="1" scY="1" pX="0" pY="0"/>
+        </display>
+      </slot>
+      <slot name="MainWeapon.png " parent="MainWeapon.png " z="3">
+        <display name="MainWeapon" type="image">
+          <transform x="-45.5" y="-22" skX="0" skY="0" scX="1" scY="1" pX="0" pY="0"/>
+        </display>
+      </slot>
+      <slot name="LForearm.png " parent="LForearm.png " z="4">
+        <display name="LForearm" type="image">
+          <transform x="-17" y="-16.5" skX="0" skY="0" scX="1" scY="1" pX="0" pY="0"/>
+        </display>
+      </slot>
+      <slot name="LLeg.png " parent="LLeg.png " z="5">
+        <display name="LLeg" type="image">
+          <transform x="-13.5" y="-11" skX="0" skY="0" scX="1" scY="1" pX="0" pY="0"/>
+        </display>
+      </slot>
+      <slot name="RLeg.png" parent="RLeg.png" z="6">
+        <display name="RLeg" type="image">
+          <transform x="-14.5" y="-10.5" skX="0" skY="0" scX="1" scY="1" pX="0" pY="0"/>
+        </display>
+      </slot>
+      <slot name="TorsoTop.png" parent="TorsoTop.png" z="7">
+        <display name="TorsoTop" type="image">
+          <transform x="-27.5" y="-22.5" skX="0" skY="0" scX="1" scY="1" pX="0" pY="0"/>
+        </display>
+      </slot>
+      <slot name="Head_1.png " parent="Head_1.png " z="8">
+        <display name="Head_1" type="image">
+          <transform x="-7" y="-19.5" skX="0" skY="0" scX="1" scY="1" pX="0" pY="0"/>
+        </display>
+      </slot>
+      <slot name="Head_3.png " parent="Head_3.png " z="9">
+        <display name="Head_3" type="image">
+          <transform x="-25" y="-21" skX="0" skY="0" scX="1" scY="1" pX="0" pY="0"/>
+        </display>
+      </slot>
+      <slot name="Head.png " parent="Head.png " z="10">
+        <display name="Head" type="image">
+          <transform x="-34.5" y="-34.5" skX="0" skY="0" scX="1" scY="1" pX="0" pY="0"/>
+        </display>
+      </slot>
+      <slot name="Eyes.png " parent="Eyes.png " z="11">
+        <display name="Eyes" type="image">
+          <transform x="-15" y="-6.5" skX="0" skY="0" scX="1" scY="1" pX="0" pY="0"/>
+        </display>
+      </slot>
+      <slot name="Head_2.png " parent="Head_2.png " z="12">
+        <display name="Head_2" type="image">
+          <transform x="-8" y="-23.5" skX="0" skY="0" scX="1" scY="1" pX="0" pY="0"/>
+        </display>
+      </slot>
+      <slot name="LLeg_1.png " parent="LLeg_1.png " z="13">
+        <display name="LLeg_1" type="image">
+          <transform x="-9.5" y="-8.5" skX="0" skY="0" scX="1" scY="1" pX="0" pY="0"/>
+        </display>
+      </slot>
+      <slot name="RLeg_1.png" parent="RLeg_1.png" z="14">
+        <display name="RLeg_1" type="image">
+          <transform x="-11.5" y="-8.5" skX="0" skY="0" scX="1" scY="1" pX="0" pY="0"/>
+        </display>
+      </slot>
+      <slot name="TorsoBottom.png" parent="TorsoBottom.png" z="15">
+        <display name="TorsoBottom" type="image">
+          <transform x="-25" y="-8.5" skX="0" skY="0" scX="1" scY="1" pX="0" pY="0"/>
+        </display>
+      </slot>
+      <slot name="RArm.png" parent="RArm.png" z="16">
+        <display name="RArm" type="image">
+          <transform x="-14" y="-14.5" skX="0" skY="0" scX="1" scY="1" pX="0" pY="0"/>
+        </display>
+      </slot>
+      <slot name="RForearm.png" parent="RForearm.png" z="17">
+        <display name="RForearm" type="image">
+          <transform x="-15" y="-15" skX="0" skY="0" scX="1" scY="1" pX="0" pY="0"/>
+        </display>
+      </slot>
+      <slot name="RShoulder.png" parent="RShoulder.png" z="18">
+        <display name="RShoulder" type="image">
+          <transform x="-21.5" y="-20.5" skX="0" skY="0" scX="1" scY="1" pX="0" pY="0"/>
+        </display>
+      </slot>
+    </skin>
+    <animation name="chuantai" fadeInTime="0.3" duration="9" scale="3" loop="0" tweenEasing="0.55">
+      <timeline name="Shadow.png" scale="1" offset="0">
+        <frame z="0" duration="9">
+          <transform x="-52.95" y="73.9" skX="0" skY="0" scX="1" scY="1" pX="0" pY="0"/>
+        </frame>
+      </timeline>
+      <timeline name="qimian" scale="1" offset="0">
+        <frame z="1" duration="1">
+          <transform x="-79" y="-45.45" skX="0" skY="0" scX="1" scY="1" pX="0" pY="0"/>
+        </frame>
+        <frame z="1" displayIndex="1" duration="1">
+          <transform x="-80" y="-44.95" skX="0" skY="0" scX="1" scY="1" pX="0" pY="0"/>
+        </frame>
+        <frame z="1" displayIndex="2" duration="1">
+          <transform x="-79.5" y="-44.95" skX="0" skY="0" scX="1" scY="1" pX="0" pY="0"/>
+        </frame>
+        <frame z="1" duration="1">
+          <transform x="-79" y="-45.45" skX="0" skY="0" scX="1" scY="1" pX="0" pY="0"/>
+        </frame>
+        <frame z="1" displayIndex="1" duration="1">
+          <transform x="-80" y="-43.95" skX="0" skY="0" scX="1" scY="1" pX="0" pY="0"/>
+        </frame>
+        <frame z="1" displayIndex="2" duration="1">
+          <transform x="-79.5" y="-44.95" skX="0" skY="0" scX="1" scY="1" pX="0" pY="0"/>
+        </frame>
+        <frame z="1" duration="1">
+          <transform x="-79" y="-45.45" skX="0" skY="0" scX="1" scY="1" pX="0" pY="0"/>
+        </frame>
+        <frame z="1" displayIndex="1" duration="1">
+          <transform x="-80" y="-44.95" skX="0" skY="0" scX="1" scY="1" pX="0" pY="0"/>
+        </frame>
+        <frame z="1" displayIndex="2" duration="1">
+          <transform x="-79.5" y="-44.95" skX="0" skY="0" scX="1" scY="1" pX="0" pY="0"/>
+        </frame>
+      </timeline>
+      <timeline name="qigan" scale="1" offset="0">
+        <frame z="2" duration="4">
+          <transform x="-51" y="-35.85" skX="0" skY="0" scX="1" scY="1" pX="0" pY="0"/>
+        </frame>
+        <frame z="2" duration="4">
+          <transform x="-51" y="-34.85" skX="0" skY="0" scX="1" scY="1" pX="0" pY="0"/>
+        </frame>
+        <frame z="2" duration="1">
+          <transform x="-51" y="-35.85" skX="0" skY="0" scX="1" scY="1" pX="0" pY="0"/>
+        </frame>
+      </timeline>
+      <timeline name="MainWeapon.png " scale="1" offset="0">
+        <frame z="3" duration="4">
+          <transform x="3.05" y="53.4" skX="0" skY="0" scX="1" scY="1" pX="0" pY="0"/>
+        </frame>
+        <frame z="3" duration="4">
+          <transform x="6.2" y="50.4" skX="-2.5" skY="-2.5" scX="1" scY="1" pX="-0.05" pY="0.1"/>
+        </frame>
+        <frame z="3" duration="1">
+          <transform x="3.05" y="53.4" skX="0" skY="0" scX="1" scY="1" pX="0" pY="0"/>
+        </frame>
+      </timeline>
+      <timeline name="LForearm.png " scale="1" offset="0">
+        <frame z="4" duration="4">
+          <transform x="-31" y="37.7" skX="0" skY="0" scX="1" scY="1" pX="0" pY="0"/>
+        </frame>
+        <frame z="4" duration="4">
+          <transform x="-28.55" y="36.3" skX="-2.5" skY="-2.5" scX="1" scY="1" pX="0.05" pY="0"/>
+        </frame>
+        <frame z="4" duration="1">
+          <transform x="-31" y="37.7" skX="0" skY="0" scX="1" scY="1" pX="0" pY="0"/>
+        </frame>
+      </timeline>
+      <timeline name="LLeg.png " scale="1" offset="0">
+        <frame z="5" duration="4">
+          <transform x="-42.5" y="55.4" skX="0" skY="0" scX="1" scY="1" pX="0" pY="0"/>
+        </frame>
+        <frame z="5" duration="4">
+          <transform x="-42.5" y="55.4" skX="0" skY="0" scX="1" scY="1" pX="0" pY="0"/>
+        </frame>
+        <frame z="5" duration="1">
+          <transform x="-42.5" y="55.4" skX="0" skY="0" scX="1" scY="1" pX="0" pY="0"/>
+        </frame>
+      </timeline>
+      <timeline name="RLeg.png" scale="1" offset="0">
+        <frame z="6" duration="4">
+          <transform x="-64.95" y="56.4" skX="0" skY="0" scX="1" scY="1" pX="0" pY="0"/>
+        </frame>
+        <frame z="6" duration="4">
+          <transform x="-64.95" y="56.4" skX="0" skY="0" scX="1" scY="1" pX="0" pY="0"/>
+        </frame>
+        <frame z="6" duration="1">
+          <transform x="-64.95" y="56.4" skX="0" skY="0" scX="1" scY="1" pX="0" pY="0"/>
+        </frame>
+      </timeline>
+      <timeline name="TorsoTop.png" scale="1" offset="0">
+        <frame z="7" duration="4">
+          <transform x="-61.5" y="26.85" skX="0" skY="0" scX="1" scY="1" pX="0" pY="0"/>
+        </frame>
+        <frame z="7" duration="4">
+          <transform x="-61.5" y="27.35" skX="0" skY="0" scX="1" scY="1" pX="0" pY="0"/>
+        </frame>
+        <frame z="7" duration="1">
+          <transform x="-61.5" y="26.85" skX="0" skY="0" scX="1" scY="1" pX="0" pY="0"/>
+        </frame>
+      </timeline>
+      <timeline name="Head_1.png " scale="1" offset="0">
+        <frame z="8" duration="4">
+          <transform x="-40" y="12.15" skX="0" skY="0" scX="1" scY="1" pX="0" pY="0"/>
+        </frame>
+        <frame z="8" duration="4">
+          <transform x="-40" y="-5.6" skX="-4.48" skY="-4.48" scX="1" scY="1" pX="0.05" pY="19.5"/>
+        </frame>
+        <frame z="8" duration="1">
+          <transform x="-40" y="12.15" skX="0" skY="0" scX="1" scY="1" pX="0" pY="0"/>
+        </frame>
+      </timeline>
+      <timeline name="Head_3.png " scale="1" offset="0">
+        <frame z="9" duration="4">
+          <transform x="-84.5" y="-30.6" skX="0" skY="0" scX="1" scY="1" pX="0" pY="0"/>
+        </frame>
+        <frame z="9" duration="4">
+          <transform x="-66" y="-37.85" skX="6.7" skY="6.7" scX="1" scY="1" pX="-18.5" pY="9"/>
+        </frame>
+        <frame z="9" duration="1">
+          <transform x="-84.5" y="-30.6" skX="0" skY="0" scX="1" scY="1" pX="0" pY="0"/>
+        </frame>
+      </timeline>
+      <timeline name="Head.png " scale="1" offset="0">
+        <frame z="10" duration="4">
+          <transform x="-65.5" y="-7.1" skX="0" skY="0" scX="1" scY="1" pX="0" pY="0"/>
+        </frame>
+        <frame z="10" duration="4">
+          <transform x="-65.5" y="-5.35" skX="0" skY="0" scX="1" scY="1" pX="0" pY="0"/>
+        </frame>
+        <frame z="10" duration="1">
+          <transform x="-65.5" y="-7.1" skX="0" skY="0" scX="1" scY="1" pX="0" pY="0"/>
+        </frame>
+      </timeline>
+      <timeline name="Eyes.png " scale="1" offset="0">
+        <frame z="11" duration="4">
+          <transform x="-51.5" y="-0.85" skX="0" skY="0" scX="1" scY="1" pX="0" pY="0"/>
+        </frame>
+        <frame z="11" duration="4">
+          <transform x="-51.5" y="0.9" skX="0" skY="0" scX="1" scY="1" pX="0" pY="0"/>
+        </frame>
+        <frame z="11" duration="1">
+          <transform x="-51.5" y="-0.85" skX="0" skY="0" scX="1" scY="1" pX="0" pY="0"/>
+        </frame>
+      </timeline>
+      <timeline name="Head_2.png " scale="1" offset="0">
+        <frame z="12" duration="4">
+          <transform x="-78.95" y="3.9" skX="0" skY="0" scX="1" scY="1" pX="0" pY="0"/>
+        </frame>
+        <frame z="12" duration="4">
+          <transform x="-78.95" y="-17.85" skX="-3.95" skY="-3.95" scX="1" scY="1" pX="-0.05" pY="23.5"/>
+        </frame>
+        <frame z="12" duration="1">
+          <transform x="-78.95" y="3.9" skX="0" skY="0" scX="1" scY="1" pX="0" pY="0"/>
+        </frame>
+      </timeline>
+      <timeline name="LLeg_1.png " scale="1" offset="0">
+        <frame z="13" duration="4">
+          <transform x="-38.5" y="65.4" skX="0" skY="0" scX="1" scY="1" pX="0" pY="0"/>
+        </frame>
+        <frame z="13" duration="4">
+          <transform x="-38.5" y="65.4" skX="0" skY="0" scX="1" scY="1" pX="0" pY="0"/>
+        </frame>
+        <frame z="13" duration="1">
+          <transform x="-38.5" y="65.4" skX="0" skY="0" scX="1" scY="1" pX="0" pY="0"/>
+        </frame>
+      </timeline>
+      <timeline name="RLeg_1.png" scale="1" offset="0">
+        <frame z="14" duration="4">
+          <transform x="-64.95" y="66.9" skX="0" skY="0" scX="1" scY="1" pX="0" pY="0"/>
+        </frame>
+        <frame z="14" duration="4">
+          <transform x="-64.95" y="66.9" skX="0" skY="0" scX="1" scY="1" pX="0" pY="0"/>
+        </frame>
+        <frame z="14" duration="1">
+          <transform x="-64.95" y="66.9" skX="0" skY="0" scX="1" scY="1" pX="0" pY="0"/>
+        </frame>
+      </timeline>
+      <timeline name="TorsoBottom.png" scale="1" offset="0">
+        <frame z="15" duration="4">
+          <transform x="-54" y="48.4" skX="0" skY="0" scX="1" scY="1" pX="0" pY="0"/>
+        </frame>
+        <frame z="15" duration="4">
+          <transform x="-54" y="49.15" skX="0" skY="0" scX="1" scY="1" pX="0" pY="0"/>
+        </frame>
+        <frame z="15" duration="1">
+          <transform x="-54" y="48.4" skX="0" skY="0" scX="1" scY="1" pX="0" pY="0"/>
+        </frame>
+      </timeline>
+      <timeline name="RArm.png" scale="1" offset="0">
+        <frame z="16" duration="4">
+          <transform x="-89" y="29.35" skX="0" skY="0" scX="1" scY="1" pX="0" pY="0"/>
+        </frame>
+        <frame z="16" duration="4">
+          <transform x="-90.4" y="28.85" skX="7.28" skY="7.28" scX="1" scY="1" pX="0.05" pY="0.05"/>
+        </frame>
+        <frame z="16" duration="1">
+          <transform x="-89" y="29.35" skX="0" skY="0" scX="1" scY="1" pX="0" pY="0"/>
+        </frame>
+      </timeline>
+      <timeline name="RForearm.png" scale="1" offset="0">
+        <frame z="17" duration="4">
+          <transform x="-94.5" y="49.15" skX="0" skY="0" scX="1" scY="1" pX="0" pY="0"/>
+        </frame>
+        <frame z="17" duration="4">
+          <transform x="-98.3" y="47.75" skX="7.28" skY="7.28" scX="1" scY="1" pX="-0.05" pY="0.1"/>
+        </frame>
+        <frame z="17" duration="1">
+          <transform x="-94.5" y="49.15" skX="0" skY="0" scX="1" scY="1" pX="0" pY="0"/>
+        </frame>
+      </timeline>
+      <timeline name="RShoulder.png" scale="1" offset="0">
+        <frame z="18" duration="4">
+          <transform x="-92.45" y="18.4" skX="0" skY="0" scX="1" scY="1" pX="0" pY="0"/>
+        </frame>
+        <frame z="18" duration="4">
+          <transform x="-92.15" y="16.35" skX="11.26" skY="11.26" scX="1" scY="1" pX="0" pY="0"/>
+        </frame>
+        <frame z="18" duration="1">
+          <transform x="-92.45" y="18.4" skX="0" skY="0" scX="1" scY="1" pX="0" pY="0"/>
+        </frame>
+      </timeline>
+    </animation>
+  </armature>
+</dragonBones>
